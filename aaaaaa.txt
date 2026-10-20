@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connection Required</title>
+<style>
+    body{
+        margin:0;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#f4f7fb;
+        font-family:Arial, sans-serif;
+    }
+
+    .card{
+        background:#fff;
+        max-width:500px;
+        padding:40px;
+        border-radius:12px;
+        box-shadow:0 8px 25px rgba(0,0,0,0.1);
+        text-align:center;
+    }
+
+    .icon{
+        font-size:48px;
+        margin-bottom:15px;
+    }
+
+    h1{
+        color:#1f2937;
+        margin-bottom:12px;
+    }
+
+    p{
+        color:#6b7280;
+        font-size:16px;
+        line-height:1.6;
+    }
+
+    .button{
+        display:inline-block;
+        margin-top:20px;
+        padding:12px 24px;
+        background:#2563eb;
+        color:white;
+        text-decoration:none;
+        border-radius:8px;
+        font-weight:bold;
+    }
+
+    .button:hover{
+        background:#1d4ed8;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+    <div class="icon">🔒</div>
+    <h1>Connection Required</h1>
+    <p>
+        To proceed, please connect to the <strong>iProyal Proxy Network</strong>.
+        An active proxy connection is required to access this service.
+    </p>
+
+    <a href="https://iproyal.com/" class="button">
+        Connect to iProyal Proxy
+    </a>
+</div>
+
+</body>
+</html>
